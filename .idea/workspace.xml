@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="838a6379-af2b-43ee-85c0-0073db02f751" name="Default" comment=" 修复了左向斜线range上限+1的bug 棋面评估区别性提升">
+    <list default="true" id="838a6379-af2b-43ee-85c0-0073db02f751" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alpha_beta_optimize.py" afterPath="$PROJECT_DIR$/Alpha_beta_optimize.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Global_variables.py" afterPath="$PROJECT_DIR$/Global_variables.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,8 +32,8 @@
       <file leaf-file-name="Alpha_beta_optimize.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Alpha_beta_optimize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="233" column="40" lean-forward="false" selection-start-line="233" selection-start-column="40" selection-end-line="233" selection-end-column="40" />
+            <state relative-caret-position="2170">
+              <caret line="249" column="38" lean-forward="false" selection-start-line="249" selection-start-column="38" selection-end-line="249" selection-end-column="38" />
               <folding>
                 <element signature="e#164#193#0" expanded="true" />
                 <element signature="e#865#3475#0" expanded="false" />
@@ -65,8 +62,8 @@
       <file leaf-file-name="Global_variables.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Global_variables.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="163">
+              <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -118,12 +115,15 @@
       <find>11111</find>
       <find>0110</find>
       <find>(5, 11</find>
-      <find>1111</find>
       <find>print</find>
+      <find>1111</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="'dev_v1.x'" target-remote="origin" target-branch="‘dev_v1.x'" />
+    </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -139,15 +139,15 @@
         <option value="$PROJECT_DIR$/Chess_main.py" />
         <option value="$PROJECT_DIR$/PP_chess.py" />
         <option value="$PROJECT_DIR$/Calcu_every_step_score.py" />
-        <option value="$PROJECT_DIR$/Global_variables.py" />
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Alpha_beta_optimize.py" />
+        <option value="$PROJECT_DIR$/Global_variables.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="14" />
+    <option name="x" value="69" />
+    <option name="y" value="8" />
     <option name="width" value="1301" />
     <option name="height" value="756" />
   </component>
@@ -455,19 +455,33 @@
       <option name="project" value="LOCAL" />
       <updated>1512653616675</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修复了模式二计分错误的bug，修改模式名称，该bug修复后AI得到大幅提升">
+      <created>1512657764710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1512657764710</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修复了模式二计分错误的bug，修改模式名称，该bug修复后AI得到大幅提升">
+      <created>1512657864060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512657864060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="14" width="1301" height="756" extended-state="0" />
+    <frame x="69" y="8" width="1301" height="756" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16389549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33440515" sideWeight="0.50593823" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33440515" sideWeight="0.5091053" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33440515" sideWeight="0.49406177" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33440515" sideWeight="0.4908947" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -487,7 +501,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="为使用py3的小伙伴做了一些修改 (本代码是基于py2.7)" />
     <MESSAGE value=" 修复了左向斜线range上限+1的bug 棋面评估区别性提升" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 修复了左向斜线range上限+1的bug 棋面评估区别性提升" />
+    <MESSAGE value="修复了模式二计分错误的bug，修改模式名称，该bug修复后AI得到大幅提升" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了模式二计分错误的bug，修改模式名称，该bug修复后AI得到大幅提升" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -554,28 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calcu_every_step_score.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3433">
-          <caret line="394" column="18" lean-forward="false" selection-start-line="394" selection-start-column="12" selection-end-line="394" selection-end-column="18" />
-          <folding>
-            <element signature="e#163#186#0" expanded="true" />
-            <element signature="e#5275#5524#0" expanded="false" />
-            <element signature="e#5565#5814#0" expanded="false" />
-            <element signature="e#6026#6503#0" expanded="false" />
-            <element signature="e#6697#7172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Global_variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
@@ -600,10 +593,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Calcu_every_step_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3433">
+          <caret line="394" column="18" lean-forward="false" selection-start-line="394" selection-start-column="12" selection-end-line="394" selection-end-column="18" />
+          <folding>
+            <element signature="e#163#186#0" expanded="true" />
+            <element signature="e#5275#5524#0" expanded="false" />
+            <element signature="e#5565#5814#0" expanded="false" />
+            <element signature="e#6026#6503#0" expanded="false" />
+            <element signature="e#6697#7172#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Global_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="18" column="31" lean-forward="false" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Alpha_beta_optimize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="233" column="40" lean-forward="false" selection-start-line="233" selection-start-column="40" selection-end-line="233" selection-end-column="40" />
+        <state relative-caret-position="2170">
+          <caret line="249" column="38" lean-forward="false" selection-start-line="249" selection-start-column="38" selection-end-line="249" selection-end-column="38" />
           <folding>
             <element signature="e#164#193#0" expanded="true" />
             <element signature="e#865#3475#0" expanded="false" />
