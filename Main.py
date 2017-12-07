@@ -28,12 +28,12 @@ if __name__ == '__main__':
 		else:
 			return
 	Button(top, text="[单机] 人人对战", fg="blue", width=28, command=lambda: play('单机', '')).pack()
-	Button(top, text="Level 1  人机", fg="blue",  width=28, command=lambda: play('初级', 'HM')).pack()
-	Button(top, text="Level 1  机器", fg="blue", width=28, command=lambda: play('初级', 'MM')).pack()
-	Button(top, text="Level 1  辅助", fg="blue", width=28, command=lambda: play('初级', 'HMM')).pack()
-	Button(top, text="Level 2  人机", fg="blue",  width=28, command=lambda: play('中级', 'HM')).pack()
-	Button(top, text="Level 2  机器", fg="blue", width=28, command=lambda: play('中级', 'MM')).pack()
-	Button(top, text="Level 2  辅助", fg="blue", width=28, command=lambda: play('中级', 'HMM')).pack()
+	Button(top, text="比你6的Level   人机", fg="blue",  width=28, command=lambda: play('比你6的Level', 'HM')).pack()
+	Button(top, text="比你6的Level  机器", fg="blue", width=28, command=lambda: play('比你6的Level', 'MM')).pack()
+	Button(top, text="比你6的Level  辅助", fg="blue", width=28, command=lambda: play('比你6的Level', 'HMM')).pack()
+	Button(top, text="和我一样6的Level  人机", fg="blue",  width=28, command=lambda: play('和我一样6的Level', 'HM')).pack()
+	Button(top, text="和我一样6的Level  机器", fg="blue", width=28, command=lambda: play('和我一样6的Level', 'MM')).pack()
+	Button(top, text="和我一样6的Level  辅助", fg="blue", width=28, command=lambda: play('和我一样6的Level', 'HMM')).pack()
 	# Level 3在继续开发中
 	# Button(top, text="Difficult 人机", fg="blue",  width=28, command=lambda: play('高级', 'HM')).pack()
 	# Button(top, text="Difficult 机器", fg="blue", width=28, command=lambda: play('高级', 'MM')).pack()

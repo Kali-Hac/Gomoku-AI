@@ -221,17 +221,17 @@ def machine_thinking(mod):
 				Global_variables.flag[i][j] = 1
 				search_range[i][j] = 0
 				Global_variables.white[i][j] = 1
-				if mod == '初级':
+				if mod == '比你6的Level':
 					white_score = Calcu_every_step_score.cal_score_wise('white', i, j)
-				elif mod == '中级':
+				elif mod == '和我一样6的Level':
 					white_score = Calcu_every_step_score.cal_score('white', i, j)
 				else:
 					pass
 				Global_variables.white[i][j] = 0
 				Global_variables.black[i][j] = 1
-				if mod == '初级':
+				if mod == '比你6的Level':
 					black_score = Calcu_every_step_score.cal_score_wise('black', i, j)
-				elif mod == '中级':
+				elif mod == '和我一样6的Level':
 					black_score = Calcu_every_step_score.cal_score('black', i, j)
 				else:
 					pass
@@ -240,13 +240,13 @@ def machine_thinking(mod):
 				if black_score > black_max_score:
 					black_max_score = black_score
 					b_best_pos = (i, j)
-					# print black_max_score
-					# print b_best_pos
+					print black_max_score
+					print b_best_pos
 				if white_score > white_max_score:
 					white_max_score = white_score
 					w_best_pos = (i, j)
-					# print white_max_score
-					# print w_best_pos
+					print white_max_score
+					print w_best_pos
 	if white_max_score > black_max_score or white_max_score >= 100000:
 		return w_best_pos
 	else:
