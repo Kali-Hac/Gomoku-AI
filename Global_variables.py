@@ -16,7 +16,7 @@ flag = [[0 for a in range(15)] for b in range(15)]
 pattern_5 = [re.compile(r'11111')]
 # 10000 加了最后一个 bug修复*2 把011112移到下面
 pattern_alive_4 = [re.compile(r'011110')]
-# 8000 改了最后一个去了2
+# 8000 改了最后一个去了2 重大bug修复 去除重复模式
 pattern_to_4 = [re.compile(r'11011'), re.compile(r'011112'), re.compile(r'10111'), re.compile(r'201111')]
 # 5000 双活三原本是01110 但此处应该再加边缘2个0 长度尽量长限制足够大就不会误判
 pattern_double_alive_3 = [re.compile(r'0011100'), re.compile(r'2011100')]
