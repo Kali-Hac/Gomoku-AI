@@ -110,15 +110,15 @@ def alpha_beta(color, depth, alpha, beta):
 					white_used_pos.remove((i, j))
 					Global_variables.white[i][j] = 0
 				if val >= beta:
-					print 'beta:' + str(beta)
+					# print 'beta:' + str(beta)
 					return beta
 				if val > alpha:
 					# print alpha
 					# 修复bug =》 fatal 233
 					if color == origin_color and depth == 4:
-						print origin_color
-						print val
-						print best_pos
+						# print origin_color
+						# print val
+						# print best_pos
 						best_pos = (i, j)
 					alpha = val
 	return alpha
@@ -168,7 +168,7 @@ def alpha_beta_test(color, depth, alpha, beta):
 					return beta
 				if val > alpha:
 					alpha = val
-					print color, alpha
+					# print color, alpha
 	# r = 0
 	# for i in range(15):
 	# 	for j in range(15):
