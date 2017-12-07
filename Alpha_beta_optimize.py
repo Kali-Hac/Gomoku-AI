@@ -247,7 +247,7 @@ def machine_thinking(mod):
 					w_best_pos = (i, j)
 					# print white_max_score
 					# print w_best_pos
-	if white_max_score > black_max_score:
+	if white_max_score > black_max_score or white_max_score >= 100000:
 		return w_best_pos
 	else:
 		return b_best_pos

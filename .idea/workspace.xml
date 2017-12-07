@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="838a6379-af2b-43ee-85c0-0073db02f751" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="838a6379-af2b-43ee-85c0-0073db02f751" name="Default" comment="为使用py3的小伙伴做了一些修改 (本代码是基于py2.7)">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Alpha_beta_optimize.py" afterPath="$PROJECT_DIR$/Alpha_beta_optimize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Calcu_every_step_score.py" afterPath="$PROJECT_DIR$/Calcu_every_step_score.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Global_variables.py" afterPath="$PROJECT_DIR$/Global_variables.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Alpha_beta_optimize.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Alpha_beta_optimize.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Alpha_beta_optimize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="238" column="47" lean-forward="true" selection-start-line="238" selection-start-column="47" selection-end-line="238" selection-end-column="47" />
+            <state relative-caret-position="157">
+              <caret line="224" column="82" lean-forward="false" selection-start-line="224" selection-start-column="82" selection-end-line="224" selection-end-column="82" />
               <folding>
                 <element signature="e#164#193#0" expanded="true" />
                 <element signature="e#865#3475#0" expanded="false" />
@@ -45,18 +46,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calcu_every_step_score.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Calcu_every_step_score.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Calcu_every_step_score.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1262">
-              <caret line="360" column="43" lean-forward="false" selection-start-line="360" selection-start-column="43" selection-end-line="360" selection-end-column="43" />
+            <state relative-caret-position="100">
+              <caret line="391" column="15" lean-forward="true" selection-start-line="391" selection-start-column="15" selection-end-line="391" selection-end-column="15" />
               <folding>
                 <element signature="e#163#186#0" expanded="true" />
-                <element signature="e#5251#5500#0" expanded="false" />
-                <element signature="e#5541#5790#0" expanded="false" />
-                <element signature="e#5998#6475#0" expanded="false" />
-                <element signature="e#6669#7144#0" expanded="false" />
+                <element signature="e#5275#5524#0" expanded="false" />
+                <element signature="e#5565#5814#0" expanded="false" />
+                <element signature="e#6026#6503#0" expanded="false" />
+                <element signature="e#6697#7172#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Global_variables.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Global_variables.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-233">
+              <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,7 +75,7 @@
       <file leaf-file-name="Chess.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chess.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
+            <state relative-caret-position="673">
               <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
                 <element signature="e#167#189#0" expanded="true" />
@@ -104,6 +115,9 @@
       <find>201111</find>
       <find>01111</find>
       <find>flag</find>
+      <find>21111</find>
+      <find>1111</find>
+      <find>11111</find>
       <find>print</find>
     </findStrings>
   </component>
@@ -120,21 +134,21 @@
         <option value="$PROJECT_DIR$/5_machine.py" />
         <option value="$PROJECT_DIR$/5_Chess_main.py" />
         <option value="$PROJECT_DIR$/Chess_main_test.py" />
-        <option value="$PROJECT_DIR$/Global_variables.py" />
-        <option value="$PROJECT_DIR$/Calcu_every_step_score.py" />
         <option value="$PROJECT_DIR$/Chess.py" />
         <option value="$PROJECT_DIR$/Chess_main.py" />
         <option value="$PROJECT_DIR$/PP_chess.py" />
         <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/Alpha_beta_optimize.py" />
+        <option value="$PROJECT_DIR$/Global_variables.py" />
+        <option value="$PROJECT_DIR$/Calcu_every_step_score.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="y" value="-8" />
+    <option name="x" value="65" />
+    <option name="y" value="13" />
     <option name="width" value="1301" />
-    <option name="height" value="772" />
+    <option name="height" value="756" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -196,40 +210,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Chess" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pygame" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chess.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Alpha_beta_optimize" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pygame" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Alpha_beta_optimize.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="Chess_main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,6 +240,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pygame" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Calcu_every_step_score" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pygame" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Calcu_every_step_score.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Global_variables" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pygame" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Global_variables.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -400,18 +414,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Chess" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Alpha_beta_optimize" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Chess_main" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Main (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Chess_main" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Calcu_every_step_score" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Global_variables" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Chess_main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Global_variables" />
         <item index="2" class="java.lang.String" itemvalue="Python.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Chess" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Alpha_beta_optimize" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Calcu_every_step_score" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Chess_main" />
       </list>
     </recent_temporary>
   </component>
@@ -426,33 +440,45 @@
       <option name="presentableId" value="Default" />
       <updated>1512443546782</updated>
     </task>
+    <task id="LOCAL-00001" summary="为使用py3的小伙伴做了一些修改 (本代码是基于py2.7)">
+      <created>1512647423367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512647423367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="-8" width="1301" height="772" extended-state="0" />
+    <frame x="65" y="13" width="1301" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16389549" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33440515" sideWeight="0.5027712" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33440515" sideWeight="0.49722883" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32718894" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39938557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="为使用py3的小伙伴做了一些修改 (本代码是基于py2.7)" />
+    <option name="LAST_COMMIT_MESSAGE" value="为使用py3的小伙伴做了一些修改 (本代码是基于py2.7)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -489,10 +515,10 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#163#186#0" expanded="true" />
-            <element signature="e#5251#5500#0" expanded="false" />
-            <element signature="e#5541#5790#0" expanded="false" />
-            <element signature="e#5998#6475#0" expanded="false" />
-            <element signature="e#6669#7144#0" expanded="false" />
+            <element signature="e#5275#5524#0" expanded="false" />
+            <element signature="e#5565#5814#0" expanded="false" />
+            <element signature="e#6026#6503#0" expanded="false" />
+            <element signature="e#6697#7172#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -512,31 +538,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/5.py" />
-    <entry file="file://$PROJECT_DIR$/Global_variables.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-423">
-          <caret line="17" column="51" lean-forward="false" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PP_chess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#167#189#0" expanded="true" />
-            <element signature="e#397#673#0" expanded="false" />
-            <element signature="e#2534#3942#0" expanded="false" />
-            <element signature="e#3958#5494#0" expanded="false" />
-            <element signature="e#5525#6269#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -550,28 +555,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Calcu_every_step_score.py">
+    <entry file="file://$PROJECT_DIR$/Chess.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1262">
-          <caret line="360" column="43" lean-forward="false" selection-start-line="360" selection-start-column="43" selection-end-line="360" selection-end-column="43" />
+        <state relative-caret-position="673">
+          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
-            <element signature="e#163#186#0" expanded="true" />
-            <element signature="e#5251#5500#0" expanded="false" />
-            <element signature="e#5541#5790#0" expanded="false" />
-            <element signature="e#5998#6475#0" expanded="false" />
-            <element signature="e#6669#7144#0" expanded="false" />
+            <element signature="e#167#189#0" expanded="true" />
+            <element signature="e#397#673#0" expanded="false" />
+            <element signature="e#2534#3942#0" expanded="false" />
+            <element signature="e#3958#5494#0" expanded="false" />
+            <element signature="e#5525#6269#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Alpha_beta_optimize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="238" column="47" lean-forward="true" selection-start-line="238" selection-start-column="47" selection-end-line="238" selection-end-column="47" />
+        <state relative-caret-position="157">
+          <caret line="224" column="82" lean-forward="false" selection-start-line="224" selection-start-column="82" selection-end-line="224" selection-end-column="82" />
           <folding>
             <element signature="e#164#193#0" expanded="true" />
             <element signature="e#865#3475#0" expanded="false" />
             <element signature="e#4824#5383#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Global_variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Calcu_every_step_score.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="391" column="15" lean-forward="true" selection-start-line="391" selection-start-column="15" selection-end-line="391" selection-end-column="15" />
+          <folding>
+            <element signature="e#163#186#0" expanded="true" />
+            <element signature="e#5275#5524#0" expanded="false" />
+            <element signature="e#5565#5814#0" expanded="false" />
+            <element signature="e#6026#6503#0" expanded="false" />
+            <element signature="e#6697#7172#0" expanded="false" />
           </folding>
         </state>
       </provider>

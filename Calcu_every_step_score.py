@@ -47,7 +47,7 @@ def cal_score(color, i, j):
 	bia_left_pos_rev = -1
 	bia_right_pos_rev = -1
 	# 按列数递增遍历，与按行数递增遍历一样的效果
-	for ii in range(max(0, i-j), min(i+(14 - j), 15)):
+	for ii in range(max(0, i-j), min(i+(14 - j) + 1, 15)):
 		if bia_right_pos == -1 and ii == i:
 			bia_right_pos = ii - max(0, i-j)  # 修复bug*2
 			# print 'bia_right_pos: ' + str(bia_right_pos)
@@ -66,7 +66,7 @@ def cal_score(color, i, j):
 			bia_right += '0'
 	# 加一个末边界处理 修复 bug * 4
 	bia_right += '2'
-	# print 'bia_right:' + bia_right
+	# print 'bia_right:' + str(len(bia_right))
 	# 记得如果想用行数遍历的话，要把j当做第一个下标，修复bug => too long
 	for ii in range(max(0, i-(14 - j)), min(i + j + 1, 15)):  # 修复 bug *2 ↑
 		if bia_left_pos == -1 and ii == i:
@@ -86,7 +86,7 @@ def cal_score(color, i, j):
 		else:
 			bia_left += '0'
 	bia_left += '2'
-	# print 'bia_left:' + bia_left
+	# print 'bia_left:' + str(len(bia_left))
 	search_flag = False
 	# pos_col = pos_col[max(0, j-6):min(j+6, 15)]
 	rev_col = pos_col[::-1]
@@ -204,7 +204,7 @@ def cal_score_wise(color, i, j):
 	bia_left_pos_rev = -1
 	bia_right_pos_rev = -1
 	# 按列数递增遍历，与按行数递增遍历一样的效果
-	for ii in range(max(0, i-j), min(i+(14 - j), 15)):
+	for ii in range(max(0, i-j), min(i+(14 - j) + 1, 15)):
 		if bia_right_pos == -1 and ii == i:
 			bia_right_pos = ii - max(0, i-j)  # 修复bug*2
 			# print 'bia_right_pos: ' + str(bia_right_pos)
