@@ -7,11 +7,11 @@
 * v1.2版本 修复了许多关键bug，五子棋基础AI性能提升，并更名为 比你还6的Level (难度大于) 跟我一样6的Level 
 
 # 运行环境
-python 2.7/3 (本游戏在python2.7下开发)
+### python 2.7/3 (本游戏在python2.7下开发)
 
 # 运行方式
-- 把上面的graphics.py复制进你python安装目录下的Lib文件夹
-然后直接运行Main.py即可进入游戏
+### 把上面的graphics.py复制进你python安装目录下的Lib文件夹
+### 然后直接运行Main.py即可进入游戏
 ![机器对战可以看出第一个level博弈性能比较均衡](2.png)
 ![输给自己写的五子棋](1.png)
 
