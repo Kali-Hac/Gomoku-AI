@@ -34,6 +34,8 @@ if __name__ == '__main__':
 	Button(top, text="和我一样6的Level  人机", fg="blue",  width=28, command=lambda: play('和我一样6的Level', 'HM')).pack()
 	Button(top, text="和我一样6的Level  机器", fg="blue", width=28, command=lambda: play('和我一样6的Level', 'MM')).pack()
 	Button(top, text="和我一样6的Level  辅助", fg="blue", width=28, command=lambda: play('和我一样6的Level', 'HMM')).pack()
+	Button(top, text="固若金汤  人机", fg="blue", width=28, command=lambda: play('固若金汤', 'HM')).pack()
+	Button(top, text="固若金汤  机器", fg="blue", width=28, command=lambda: play('固若金汤', 'MM')).pack()
 	# Level 3在继续开发中
 	# Button(top, text="Difficult 人机", fg="blue",  width=28, command=lambda: play('高级', 'HM')).pack()
 	# Button(top, text="Difficult 机器", fg="blue", width=28, command=lambda: play('高级', 'MM')).pack()

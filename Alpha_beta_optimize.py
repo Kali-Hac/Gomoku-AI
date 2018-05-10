@@ -33,6 +33,7 @@ def alpha_beta_process(mod):
 	search_range = shrink_range()
 	# print alpha_beta(color, depth, alpha, beta)
 	best_pos = machine_thinking(mod)
+	# 测试二步思考
 	return best_pos
 
 def alpha_beta(color, depth, alpha, beta):
@@ -223,6 +224,56 @@ def machine_thinking(mod):
 				Global_variables.white[i][j] = 1
 				if mod == '比你6的Level':
 					white_score = Calcu_every_step_score.cal_score_wise('white', i, j)
+				elif mod == '和我一样6的Level' or mod == '固若金汤':
+					white_score = Calcu_every_step_score.cal_score('white', i, j)
+				else:
+					pass
+				Global_variables.white[i][j] = 0
+				Global_variables.black[i][j] = 1
+				if mod == '比你6的Level':
+					black_score = Calcu_every_step_score.cal_score_wise('black', i, j)
+				elif mod == '和我一样6的Level' or mod == '固若金汤':
+					black_score = Calcu_every_step_score.cal_score('black', i, j)
+				else:
+					pass
+				Global_variables.black[i][j] = 0
+				Global_variables.flag[i][j] = 0
+				if black_score > black_max_score:
+					black_max_score = black_score
+					b_best_pos = (i, j)
+					# print black_max_score
+					# print b_best_pos
+				if white_score > white_max_score:
+					white_max_score = white_score
+					w_best_pos = (i, j)
+					# print white_max_score
+					# print w_best_pos
+	# 防守型
+	if mod == '固若金汤' and white_max_score >= 10000 and black_max_score <= white_max_score:
+		return w_best_pos
+	if mod == '固若金汤' and black_max_score >= 1000:
+		return b_best_pos
+	if white_max_score > black_max_score or white_max_score >= 100000:
+		return w_best_pos
+	else:
+		return b_best_pos
+
+
+# 进攻性尝试
+def machine_thinking_twice(mod):
+	global search_range
+	black_max_score = -5
+	white_max_score = -5
+	w_best_pos = ''
+	b_best_pos = ''
+	for i in range(15):
+		for j in range(15):
+			if Global_variables.flag[i][j] == 0 and search_range[i][j] == 1:
+				Global_variables.flag[i][j] = 1
+				search_range[i][j] = 0
+				Global_variables.white[i][j] = 1
+				if mod == '比你6的Level':
+					white_score = Calcu_every_step_score.cal_score_wise('white', i, j)
 				elif mod == '和我一样6的Level':
 					white_score = Calcu_every_step_score.cal_score('white', i, j)
 				else:
@@ -247,7 +298,55 @@ def machine_thinking(mod):
 					w_best_pos = (i, j)
 					# print white_max_score
 					# print w_best_pos
-	if white_max_score > black_max_score or white_max_score >= 100000:
+	if white_max_score >= 100000:
 		return w_best_pos
-	else:
+	if black_max_score >= 8000:
 		return b_best_pos
+	if white_max_score > black_max_score:
+		first_best = w_best_pos
+		second_best = b_best_pos
+	else:
+		first_best = b_best_pos
+		second_best = w_best_pos
+	first_sums, first_best = twice_search(first_best, second_best, mod)
+	second_sums, second_best = twice_search(second_best, first_best, mod)
+	if first_sums < second_sums:
+		first_best = second_best
+	print(first_sums, second_sums)
+	return first_best
+
+def twice_search(first_best, second_best, mod):
+	global search_range
+	(w_11, w_12) = first_best
+	one_score = Calcu_every_step_score.cal_score_wise('white', w_11, w_12)
+	Global_variables.white[w_11][w_12] = 1
+	Global_variables.flag[w_11][w_12] = 1
+
+	search_range = shrink_range()
+	(b_11, b_12) = machine_thinking(mod)
+	one_b_score = Calcu_every_step_score.cal_score_wise('black', b_11, b_12)
+	Global_variables.black[b_11][b_12] = 1
+	Global_variables.flag[b_11][b_12] = 1
+
+	search_range = shrink_range()
+	(w_21, w_22) = machine_thinking(mod)
+	two_score = Calcu_every_step_score.cal_score_wise('white', w_21, w_22)
+	Global_variables.white[w_21][w_22] = 1
+	Global_variables.flag[w_21][w_22] = 1
+
+	search_range = shrink_range()
+	(b_21, b_22) = machine_thinking(mod)
+	two_b_score = Calcu_every_step_score.cal_score_wise('black', b_21, b_22)
+
+	# Recover
+	Global_variables.white[w_11][w_12] = Global_variables.white[w_21][w_22] = 0
+	Global_variables.flag[w_11][w_12] = Global_variables.flag[w_21][w_22] = 0
+	Global_variables.black[b_11][b_12] = 0
+	Global_variables.flag[b_11][b_12] = 0
+
+	w_sums = one_score + two_score
+	b_sums = one_b_score + two_b_score
+	if w_sums >= b_sums:
+		return w_sums, first_best
+	else:
+		return b_sums, second_best
